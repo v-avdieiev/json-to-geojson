@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build2": "babel src -d lib",
+    "start": "./node_modules/babel-cli/bin/babel-node.js --presets es2015,stage-2 ./",
     "build": "./node_modules/babel-cli/bin/babel-node.js --presets es2015,stage-2 ./",
     "test": "yarn run test -o --watch",
     "test2": "jest",
-    "start": "nodemon index.js"
+    "start0": "nodemon index.js"
   },
   "repository": {
     "type": "git",
