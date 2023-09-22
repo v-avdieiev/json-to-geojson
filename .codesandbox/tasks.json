@@ -17,7 +17,10 @@
     "build": {
       "name": "build",
       "command": "yarn build",
-      "runAtStart": false
+      "runAtStart": false,
+      "preview": {
+        "port": 3000
+      }
     }
   }
 }

@@ -1,9 +1,13 @@
 {
-  "name": "nodejs-sandbox",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "name": "json-to-geojson",
+  "version": "0.1.0",
+  "description": "Transform JSON to GeoJSON",
+  "main": "index.js",
   "scripts": {
+    "build2": "babel src -d lib",
+    "build": "./node_modules/babel-cli/bin/babel-node.js --presets es2015,stage-2 ./",
+    "test": "yarn run test -o --watch",
+    "test2": "jest",
     "start": "nodemon index.js"
   },
   "repository": {
@@ -11,8 +15,8 @@
     "url": "git+https://github.com/codesandbox-app/static-template.git"
   },
   "keywords": [],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
+  "author": "Viacheslav Avdieiev",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/codesandbox-app/static-template/issues"
   },
@@ -20,5 +24,18 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@babel/code-frame": "7.21.4",
+    "@babel/generator": "7.21.4",
+    "@babel/parser": "7.21.3",
+    "@babel/runtime": "7.21.0",
+    "@babel/types": "7.21.4",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "superagent": "^3.3.1"
+  }
 }
