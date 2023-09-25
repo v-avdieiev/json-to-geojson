@@ -9,8 +9,10 @@ Each object should have a `lat` and `long` value.
 
 ## Try it out at
 
-- [/api?endpoint=<url_on_target_file>](https://52kk6x-3000.csb.app/api?endpoint=bit.ly/simple-json)
-- or
+- [/api?endpoint=<url_on_target_file>](https://bcns.ai/DR5AMS)
+
+or
+
 - [https://json-to-geojson.herokuapp.com/api?endpoint=<url_on_target_file>](https://json-to-geojson.herokuapp.com/api?endpoint=bit.ly/simple-json)
 
 ## Resources
