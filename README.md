@@ -15,14 +15,14 @@ or
 
 - [https://52kk6x-3000.csb.app/api?endpoint=<url_on_target_file>](https://52kk6x-3000.csb.app/api?endpoint=bit.ly/simple-json)
 
+## Connection with a developer
+
+[![Telegram](https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram)](https://telegram.me/developer_support_bot)
+
 ## Resources
 
 - [CodeSandbox — Docs](https://codesandbox.io/docs/learn)
 - Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard)
-
-## Connection with a developer
-
-[![Telegram](https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram)](https://telegram.me/developer_support_bot)
 
 ## Deploy using Heroku Button
 
