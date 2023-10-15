@@ -26,7 +26,7 @@
     "nodemon": "^3.0.1"
   },
   "dependencies": {
-    "@babel/code-frame": "7.21.4",
+    "@babel/code-frame": "7.22.13",
     "@babel/generator": "7.21.4",
     "@babel/parser": "7.21.3",
     "@babel/runtime": "7.21.0",
