@@ -13,7 +13,7 @@ Each object should have a `lat` and `long` value.
 
 or
 
-- [https://json-to-geojson.herokuapp.com/api?endpoint=<url_on_target_file>](https://52kk6x-3000.csb.app/api?endpoint=bit.ly/simple-json)
+- [https://52kk6x-3000.csb.app/api?endpoint=<url_on_target_file>](https://52kk6x-3000.csb.app/api?endpoint=bit.ly/simple-json)
 
 ## Resources
 
